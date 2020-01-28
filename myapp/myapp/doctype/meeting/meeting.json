@@ -11,7 +11,7 @@
   "date",
   "from_time",
   "select",
-  "place"
+  "roomno"
  ],
  "fields": [
   {
@@ -45,13 +45,13 @@
    "options": "Planned\nIn progress\nCompleted\nCancelled"
   },
   {
-   "fieldname": "place",
-   "fieldtype": "Data",
-   "label": "place"
+   "fieldname": "roomno",
+   "fieldtype": "Int",
+   "label": "room"
   }
  ],
  "links": [],
- "modified": "2020-01-28 11:51:50.573746",
+ "modified": "2020-01-28 12:18:34.008529",
  "modified_by": "Administrator",
  "module": "Myapp",
  "name": "meeting",
