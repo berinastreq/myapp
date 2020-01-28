@@ -10,7 +10,8 @@
   "to_time",
   "date",
   "from_time",
-  "select"
+  "select",
+  "place"
  ],
  "fields": [
   {
@@ -42,10 +43,15 @@
    "fieldtype": "Select",
    "label": "Status",
    "options": "Planned\nIn progress\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "place",
+   "fieldtype": "Data",
+   "label": "place"
   }
  ],
  "links": [],
- "modified": "2020-01-23 14:56:25.128299",
+ "modified": "2020-01-28 11:51:50.573746",
  "modified_by": "Administrator",
  "module": "Myapp",
  "name": "meeting",
