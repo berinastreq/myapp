@@ -1,0 +1,90 @@
+<!-- <html> -->
+{% from "myapp/templates/includes/headernav.html" import headernav %}
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <link rel="stylesheet" href="feature-style.css">
+</head>
+
+<body>
+  <div class="bgset">
+    <header>
+      {{ headernav()  }}
+    </header>
+    <div class="container">
+
+      <!-- banner -->
+      <div class="banner">
+        <h1 class="display-4 font-edit">
+          YOUR TRUSTED TECHNOLOGY PARTNER
+        </h1>
+        <p>
+          <h2 class="sub-heading">
+
+            Turning Ideas Into Tangible Visual Results..
+          </h2>
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="container">
+    <div class="row">
+      <div class="col col-lg-4 fbox">
+        <h2>Features</h2>
+        <p>We are here to impart futuristic solutions through our unique features.</p>
+      </div>
+      <div class="col">
+        <div class="row">
+          {% for feat in feature %}
+          <div class="col col-lg-4 fbox">
+            <h3>{{feat.f_title}}</h3>
+            <p>
+              {{feat.f_desc}}
+            </p>
+          </div>
+          {% endfor  %}
+          <!-- <div class="col fbox">
+            <h3>heading</h3>
+            <p>
+              From manual to automation testing the team delivers excellent software quality assurance.
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- who we are -->
+
+
+    </div>
+
+  </div>
+  <div class="container">
+    <!-- {{ employee }} -->
+    <!-- services -->
+    <div>
+
+    </div>
+
+    <!-- Delivered how & when you need it banner 2 -->
+    <div>
+
+    </div>
+    <!-- features -->
+    <div>
+
+    </div>
+
+    <!-- featured work -->
+    <div>
+
+    </div>
+
+  </div>
+</body>
+
+<!-- </html> -->

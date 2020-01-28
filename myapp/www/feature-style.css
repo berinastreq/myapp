@@ -1,0 +1,30 @@
+.banner{
+    /* margin: 30px; */
+    padding:150px 0 50px 0;
+    text-align: center;
+    height: 500px;
+   
+}
+.bgset{
+    background: url(http://localhost:8000/files/1.png);
+    background-size: cover;
+    color: white;
+}
+.font-edit{
+    
+    font-weight: 900;
+}
+
+.sub-heading{
+color: #58c2ae;
+font-size: 25px;
+font-weight: 600;
+letter-spacing: 2px;
+}
+.features{
+background: #f8f8f8;
+}
+
+.fbox{
+margin: 25px;
+}

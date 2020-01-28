@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "creation": "2020-01-18 15:42:04.480512",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "empname",
+  "phone",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "empname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "ready\nnot ready",
+   "reqd": 1
+  }
+ ],
+ "links": [],
+ "modified": "2020-01-18 16:22:11.546955",
+ "modified_by": "Administrator",
+ "module": "Myapp",
+ "name": "mysitedoc",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "newm manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
