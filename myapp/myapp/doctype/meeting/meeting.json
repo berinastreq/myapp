@@ -8,10 +8,11 @@
  "field_order": [
   "meeting_subject",
   "to_time",
-  "date",
+  "from_date",
   "from_time",
   "select",
-  "roomno"
+  "roomno",
+  "to_date"
  ],
  "fields": [
   {
@@ -23,13 +24,6 @@
    "fieldname": "to_time",
    "fieldtype": "Time",
    "label": "To Time",
-   "reqd": 1
-  },
-  {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Date",
    "reqd": 1
   },
   {
@@ -48,10 +42,22 @@
    "fieldname": "roomno",
    "fieldtype": "Int",
    "label": "room"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From Date",
+   "reqd": 1
   }
  ],
  "links": [],
- "modified": "2020-01-28 12:18:34.008529",
+ "modified": "2020-02-04 10:38:30.052804",
  "modified_by": "Administrator",
  "module": "Myapp",
  "name": "meeting",
