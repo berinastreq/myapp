@@ -12,7 +12,8 @@
   "from_time",
   "select",
   "roomno",
-  "to_date"
+  "to_date",
+  "astq"
  ],
  "fields": [
   {
@@ -54,10 +55,15 @@
    "in_list_view": 1,
    "label": "From Date",
    "reqd": 1
+  },
+  {
+   "fieldname": "astq",
+   "fieldtype": "Data",
+   "label": "astreq"
   }
  ],
  "links": [],
- "modified": "2020-02-04 10:38:30.052804",
+ "modified": "2020-02-04 13:52:27.752983",
  "modified_by": "Administrator",
  "module": "Myapp",
  "name": "meeting",
