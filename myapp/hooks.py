@@ -11,6 +11,8 @@ app_color = "grey"
 app_email = "berin.astreq@gmail.com"
 app_license = "MIT"
 
+fixtures = ["meeting"]
+
 # Includes in <head>
 # ------------------
 
