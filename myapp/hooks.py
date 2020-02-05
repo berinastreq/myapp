@@ -11,7 +11,9 @@ app_color = "grey"
 app_email = "berin.astreq@gmail.com"
 app_license = "MIT"
 
-fixtures = ["meeting"]
+fixtures = [
+{"dt": "meeting",  "filters":[["test_field", "not in",[""]]]}
+]
 
 # Includes in <head>
 # ------------------

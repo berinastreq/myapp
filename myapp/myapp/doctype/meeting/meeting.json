@@ -13,7 +13,7 @@
   "select",
   "roomno",
   "to_date",
-  "astq"
+  "test_field"
  ],
  "fields": [
   {
@@ -57,13 +57,14 @@
    "reqd": 1
   },
   {
-   "fieldname": "astq",
+   "fieldname": "test_field",
    "fieldtype": "Data",
-   "label": "astreq"
+   "label": "test field",
+   "reqd": 1
   }
  ],
  "links": [],
- "modified": "2020-02-04 13:52:27.752983",
+ "modified": "2020-02-05 12:08:05.266072",
  "modified_by": "Administrator",
  "module": "Myapp",
  "name": "meeting",
