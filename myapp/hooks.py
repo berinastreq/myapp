@@ -94,6 +94,18 @@ fixtures = [
 # Scheduled Tasks
 # ---------------
 
+scheduler_events = {
+    # "all": [
+    #     "myapp.tasks.run_122"
+    # ]
+    # "cron": {
+    #     "33 11 * * *": [
+    #         "myapp.task.run_10"
+    #     ]
+    # }
+
+}
+
 # scheduler_events = {
 # 	"all": [
 # 		"myapp.tasks.all"
